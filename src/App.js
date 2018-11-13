@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar.js";
 import Main from "./Main.js";
+import Footer from "./Footer.jsx";
 
 import "./App.css";
 
@@ -9,7 +10,8 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        ;<Main />
+        <Main />
+        <Footer />
       </div>
     );
   }

@@ -1,12 +1,4 @@
 import React, { Component } from "react";
-import Button from "react-bootstrap/lib/Button";
-import Navbar from "react-bootstrap/lib/Navbar";
-import Nav from "react-bootstrap/lib/Nav";
-import NavItem from "react-bootstrap/lib/NavItem";
-import NavDropdown from "react-bootstrap/lib/NavDropdown";
-import MenuItem from "react-bootstrap/lib/MenuItem";
-import Pager from "react-bootstrap/lib/Pager";
-
 class NavBar extends Component {
   render() {
     return (
